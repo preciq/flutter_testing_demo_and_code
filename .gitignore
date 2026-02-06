@@ -1,0 +1,89 @@
+# Dart & Flutter
+.dart_tool/
+.packages
+.pub-cache/
+.buildlog
+.flutter-plugins
+.pub/
+build/
+*.g.*
+.flutter-plugins-dependencies
+*.lock
+
+# Android specific
+*.apk
+*.ap_
+*.dex
+bin/
+gen/
+out/
+build/
+local.properties
+*.jks
+.navigation/
+captures/
+*.iml
+.externalNativeBuild
+google-services.json
+
+# iOS specific
+*.ipa
+*.dSYM.zip
+*.dSYM
+build/
+DerivedData/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+iOSInjectionProject/
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+.Trashes
+.VolumeIcon.icns
+
+# Linux specific
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Web specific
+/.[A-Za-z]*.sw[a-p]
+.netrwhist
+*~
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.sw?
+*.un~
+
+# Version control systems
+.git/
+.svn/
+.hg/
+
+# Others
+*.log
+*.tmp
+*.bak
+obfus/
+
+# Environment variables
+**/.env
+.env
+/.env
+env_vars_json/
