@@ -24,7 +24,7 @@ void main() {
       // Call the function under test
       final album = await fetchAlbum(client);
 
-      // Verify it returns an Album instance
+      // Verify it returns an Album instance            
       expect(album, isA<Album>());
       expect(album.title, 'mock'); // the title in the JSON we provided
     });
