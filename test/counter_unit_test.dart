@@ -40,5 +40,13 @@ void main() {
       counter.decrement();
       expect(counter.value, -1);
     });
+
+    /// this one will fail: 
+    test('decrementing twice should give 0', () {
+      final counter = Counter();
+      counter.decrement();
+      counter.decrement();
+      expect(counter.value, 0); // This will fail because the value is not updated correctly
+    });
   });
 }
